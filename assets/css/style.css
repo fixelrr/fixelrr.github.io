@@ -292,7 +292,7 @@ padding:0px;
 
 .media img {
     margin-right: 40px;
-    max-height: 150px;
+    max-height: 100px;
     margin-bottom: 20px;
     border: 2px solid #ff7a22;
 }
@@ -300,6 +300,14 @@ padding:0px;
     .media img:hover {
         opacity: 0.6;
     }
+    @media only screen and (max-width: 400px) {
+        .media img {
+            margin-right: 5px;
+            max-height: 50px;
+            margin-bottom: 10px;
+            border: 2px solid #ff7a22;
+        }
+      }
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
